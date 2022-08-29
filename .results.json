@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-08-29T22:26:21.241Z",
+    "end": "2022-08-29T22:26:21.460Z",
+    "duration": 219
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "calls alert with each element passed",
+      "fullTitle": "index.js myEach calls alert with each element passed",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: myEach is not defined\n    at Context.<anonymous> (test/indexTest.js:18:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "myEach is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
